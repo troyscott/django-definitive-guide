@@ -3,7 +3,7 @@ from django.http import Http404, HttpResponse
 import datetime
 
 def hello(request):
-	return HttpResponse("Hello Git!")
+	return HttpResponse("More changes ....")
 
 def current_datetime(request):
 	current_date = datetime.datetime.now()
